@@ -1,0 +1,21 @@
+<h3>subjects works!</h3>
+<ul>
+    <li>Subject are Multicast in Nature means Every time it same data when we subcribe as many time or as
+        many user</li>
+    <li>Subject are hot means if there is no subscriber that time also emit data </li>
+    <li>Subject can be both consumer and provider</li>
+</ul>
+<button (click)="getSubjectData()">Subject Emit</button>
+
+<p> My Emited data is coming which is Multicast </p>
+observablData1 : <b>{{subjectData1}} </b> | observablData2 : <b>{{subjectData2}} </b>
+<h1>Summary:</h1>
+<ul>
+    <li>Observable can only publish data</li>
+    <li>Subject can publish and subscribe data</li>
+    <li>Observables are cold ,we need minimum one subscriber to get data</li>
+    <li>Subjects are hot it will emit data without subscribers also</li>
+    <li>Observable maintain different set of data for each subscriber</li>
+    <li>Subjects emitts same set of results to all its subscribers</li>
+    <li>Observables are unicast,subjects are multi cast</li>
+</ul>

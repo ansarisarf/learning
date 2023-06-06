@@ -1,0 +1,13 @@
+<h3>pluckoperator works!</h3>
+<button (click)="getPluckOperatorData()">Pluck Operator Data Emit</button>
+
+<h1>Data is coming</h1>
+
+<table>
+    <tr>
+        <h5>Name</h5>
+    </tr>
+    <tr *ngFor="let item of membersData">
+        <td>{{ item }}</td>
+    </tr>
+</table>
